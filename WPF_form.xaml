@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPF_DLL_Autocad_20_03_2023_"
              mc:Ignorable="d" 
-             d:DesignHeight="200" d:DesignWidth="400" SizeToContent="WidthAndHeight">
+             d:DesignHeight="200" d:DesignWidth="400" FontSize="20" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" SizeToContent="WidthAndHeight">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="83*"/>
@@ -24,7 +24,7 @@
         </Grid.ColumnDefinitions>
         <Button x:Name="b1" Content="Button1" Grid.Row="3"/>
         <Button x:Name="b2" Content="Button2"/>
-        <TextBox x:Name="T1" TextWrapping="Wrap" Text="TextBox" Grid.Row="1" Grid.Column="2" Grid.RowSpan="2" Width="NaN" Height="NaN" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="T1" TextWrapping="Wrap" Text="не забываем переименовать usercontrol в window" Grid.Row="1" Grid.Column="2" Grid.RowSpan="2" Width="NaN" Height="NaN" Grid.ColumnSpan="3"/>
 
     </Grid>
 </Window>
