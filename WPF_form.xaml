@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPF_DLL_Autocad_20_03_2023_"
              mc:Ignorable="d" 
-             d:DesignHeight="200" d:DesignWidth="400" FontSize="20" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" SizeToContent="WidthAndHeight">
+             d:DesignHeight="200" d:DesignWidth="400" FontSize="14" WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight" ResizeMode="CanResizeWithGrip">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="83*"/>
